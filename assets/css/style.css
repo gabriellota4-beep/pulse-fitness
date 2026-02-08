@@ -1,0 +1,163 @@
+/* --------------------
+   Global Reset
+--------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------
+   Base Styles
+--------------------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* --------------------
+   Header & Navigation
+--------------------- */
+header {
+    background-color: #111;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav h1 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    font-size: 0.9rem;
+}
+
+/* --------------------
+   Hero Section
+--------------------- */
+#hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    margin-bottom: 1.5rem;
+}
+
+#hero a {
+    background-color: #111;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* --------------------
+   Sections
+--------------------- */
+section {
+    padding: 2rem 1.5rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+section p,
+section ul {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* --------------------
+   Footer
+--------------------- */
+footer {
+    background-color: #111;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* --------------------
+   Tablet (768px and up)
+--------------------- */
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* --------------------
+   Desktop (1024px and up)
+--------------------- */
+@media (min-width: 1024px) {
+
+    main {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 4rem 2rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
