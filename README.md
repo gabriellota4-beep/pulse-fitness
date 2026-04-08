@@ -1,82 +1,117 @@
 # Pulse Fitness
 
-Pulse Fitness is a modern, responsive website designed to promote a local gym and its services. The site provides information about classes, facilities, and encourages users to engage with the gym.
+A responsive, user-centric website for a modern gym. The site provides information about classes, facilities, and contact details for potential members.
 
 ---
 
-## 🎯 Project Goals
+## UX (User Experience)
+
+### Project Goals
+The goal of this project is to create a simple, visually appealing gym website that provides clear information about services and encourages users to engage with the gym.
 
 ### User Goals
-- Find information about gym classes and schedule
+- Find information about gym classes and schedules
 - Learn about available facilities
-- Understand what the gym offers
-- Navigate easily through the site
+- Contact the gym easily
+- Navigate the site smoothly on all devices
 
-### Business Goals
-- Attract new members
-- Showcase gym services and facilities
-- Provide clear and accessible information
-
----
-
-## 🧠 User Experience (UX)
-
-The website is designed with simplicity and clarity in mind. A single-page layout allows users to scroll through content easily.
-
-- Clear navigation menu for quick access
-- Structured sections for readability
-- Responsive design for mobile and desktop users
-- Sticky navigation for improved usability
+### User Stories
+- As a new user, I want to quickly understand what the gym offers
+- As a user, I want to view class schedules easily
+- As a user, I want a clean and simple layout that is easy to navigate
 
 ---
 
-## ✨ Features
+## Design
 
-- Responsive layout for all devices
-- Sticky navigation bar
-- Hero section with gym imagery
+### Colour Scheme
+- Black and white theme for a modern fitness aesthetic
+- Red used for call-to-action elements (buttons)
+
+### Typography
+- Arial, Helvetica, sans-serif for readability
+
+### Layout
+- Single-page layout with smooth navigation
+- Sticky navigation bar for easy access
+- Hero section with strong visual impact
+- Card-style sections for better structure
+
+---
+
+## Features
+
+- Responsive navigation bar
+- Hero section with call-to-action
 - Classes section with schedule
-- Facilities section with detailed content
-- Clean and modern design
+- Facilities section with details
+- Contact section with key information
+- Footer with social links
 
 ---
 
-## 🧪 Testing
+## Future Improvements
+
+- Add membership signup form
+- Add interactive booking system
+- Include trainer profiles
+- Add testimonials section
+
+---
+
+## Testing
 
 ### Manual Testing
-- All navigation links work correctly
-- Site is responsive across different screen sizes
-- Images load correctly
-- No broken links
+- Navigation links tested and working correctly
+- Website responsive across mobile, tablet, and desktop
+- Images display correctly
+- All sections render properly
 
-### Validation
+### Validator Testing
 - HTML validated using W3C Validator
 - CSS validated using W3C CSS Validator
 
----
-
-## 🚀 Deployment
-
-This project is deployed using GitHub Pages.
-
-Live site:
-https://gabriellota4-beep.github.io/pulse-fitness/
+### Bugs Fixed
+- Fixed hero image layout issues
+- Fixed CSS not loading due to incorrect deployment
+- Improved layout spacing and alignment
 
 ---
 
-## 💻 Technologies Used
+## Deployment
 
-- HTML
-- CSS
+This project is deployed using GitHub Pages:
 
----
-
-## 📸 Screenshots
-
-(Add screenshots here later)
+👉 https://gabriellota4-beep.github.io/pulse-fitness/
 
 ---
 
-## 👤 Author
+## GitHub Repository
+
+👉 https://github.com/gabriellota4-beep/pulse-fitness
+
+---
+
+## Screenshots
+
+### Hero Section
+![Hero](assets/images/Screenshot 2026-04-08 211627.png)
+
+### Classes Section
+![Classes](assets/images/Screenshot 2026-04-08 211646.png)
+
+### Facilities Section
+![Facilities](assets/images/Screenshot 2026-04-08 211716.png)
+
+---
+
+## Credits
+
+- Images from Unsplash
+- Development guidance from Code Institute course material
+
+---
+
+## Author
 
 Gabriel Dada Lota
