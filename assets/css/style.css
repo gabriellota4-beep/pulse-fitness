@@ -1,6 +1,10 @@
 /* --------------------
    Global Reset
 --------------------- */
+
+body {
+  background: red !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +34,10 @@ ul {
    Header & Navigation
 --------------------- */
 header {
-    background-color: #111;
+    position: sticky;
+    top: 0;
+    background: #000;
+    z-index: 1000;
     padding: 1rem;
 }
 
@@ -55,39 +62,61 @@ nav a {
 }
 
 /* --------------------
-   Hero Section
+   Hero Section (CLEAN VERSION)
 --------------------- */
 #hero {
-    background-color: #f4f4f4;
+    height: 400px;
+    background: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=1200&h=500&fit=crop") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    color: #fff;
     text-align: center;
-    padding: 3rem 1.5rem;
+    z-index: 2;
 }
 
-#hero h2 {
+.hero-content h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
-#hero p {
-    margin-bottom: 1.5rem;
+.hero-content p {
+    margin-bottom: 15px;
 }
 
-#hero a {
-    background-color: #111;
-    padding: 0.75rem 1.5rem;
+.btn {
     display: inline-block;
-    border-radius: 4px;
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
 }
 
 /* --------------------
    Sections
 --------------------- */
 section {
-    padding: 2rem 1.5rem;
+    padding: 60px 20px;
+}
+
+#hero {
+    padding: 0;
 }
 
 section h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -99,6 +128,21 @@ section ul {
 
 section ul li {
     margin-bottom: 0.5rem;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.section-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* --------------------
@@ -134,7 +178,7 @@ footer ul {
         padding: 3rem 2rem;
     }
 
-    #hero h2 {
+    .hero-content h2 {
         font-size: 2.5rem;
     }
 }
@@ -160,27 +204,4 @@ footer ul {
     footer {
         padding: 2rem;
     }
-}
-
-header {
-  position: sticky;
-  top: 0;
-  background: #000;
-  z-index: 1000;
-}
-
-section {
-  padding: 60px 20px;
-}
-
-h2 {
-  margin-bottom: 15px;
-}
-
-ul {
-  margin: 15px 0;
-}
-
-.card {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
