@@ -168,3 +168,19 @@ header {
   background: #000;
   z-index: 1000;
 }
+
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin: 15px 0;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
